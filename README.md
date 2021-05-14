@@ -4,17 +4,19 @@
 
 This is the Ecommerce Backend program that allows the product search, removal, update of all products available.
 
-## Description
-
-
+Here is a link to the sample video for the project: https://drive.google.com/file/d/1CfOarinClZSbeYFSDd78o_4JA8ZhyZCO/view
 
 # How to Install
 
 This application has a few simple steps:
 1. Clone this repository onto your local device
 2. Once open, run 'npm install' in the terminal to download all necessary modules for this program to function
-3. Then run 'node app.js' to start the program
-4. Enjoy!
+3. Open up your terminal and connect to your mysql server
+4. Run 'source db/schema.sql' to load the database, then run 'quit' to exit
+5. Within the terminal prompt, run 'npm run seed' to fill in the data for the database
+6. The run 'npm start' to begin the server
+7. Once open, run 'npm install' in the terminal to download all necessary modules for this program to function
+8. Enjoy!
 
 # License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
